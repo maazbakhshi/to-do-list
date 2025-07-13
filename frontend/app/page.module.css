@@ -1,0 +1,15 @@
+/* This is an example of a CSS Module file. */
+/* You can import and use classes from this file in app/page.tsx like this: */
+/* import styles from './page.module.css'; */
+/* <main className={styles.main}>...</main> */
+
+.main {
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f9fafb; /* Light text for dark theme */
+}
